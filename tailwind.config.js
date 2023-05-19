@@ -11,6 +11,17 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
+      },
+      colors: {
+        'my-green': '#00ADB5',
+        'my-white': '#EEEEEE',
+        'my-gray': '#393E46',
+        'very-dark-green': '#222831'
+
+      },
+      fontFamily: {
+        poppins: 'Poppins, sans-serif'
+
       }
     }
   },
