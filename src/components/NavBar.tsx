@@ -12,13 +12,13 @@ const NavBar = () => {
 
   return (
     <nav className="fixed w-full py-4 bg-my-dark-purple">
-      <div className="flex items-center justify-between h-12 px-8 mx-auto max-w-7xl rounded-xl text-my-white">
+      <div className="container flex items-center justify-between h-12 px-4 mx-auto rounded-xl text-my-white">
         <div className="flex items-center text-lg font-bold ">
           <Image src='/logo.svg' width={40} height={40} alt="logo" />
         </div>
 
         <div onClick={() => setIsOpen(!isOpen)}
-          className={`${isOpen ? "left-0" : "left-full"} fixed md:static top-0 bg-my-dark-purple    py-6 md:p-0 px-8   flex flex-col items-end md:flex-row md:items-center md:justify-end  w-full h-screen md:h-auto gap-4  transition-all  `}>
+          className={`${isOpen ? "left-0" : "left-full"} fixed md:static top-0 bg-my-dark-purple    py-6 md:p-0 px-4   flex flex-col items-end md:flex-row md:items-center md:justify-end  w-full h-screen md:h-auto gap-4  transition-all  `}>
 
 
 
