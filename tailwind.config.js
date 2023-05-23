@@ -7,11 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
-      },
       colors: {
         'my-purple': '#7B4AE2',
         'my-white': '#EEEEEE',
@@ -26,5 +21,7 @@ module.exports = {
       }
     }
   },
-  plugins: []
+  plugins: [
+    require('tailwindcss-animated')
+  ]
 }

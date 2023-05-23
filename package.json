@@ -21,7 +21,8 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "standard": "17.0.0"
+    "standard": "17.0.0",
+    "tailwindcss-animated": "^1.0.1"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
