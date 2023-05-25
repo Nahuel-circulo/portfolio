@@ -1,8 +1,7 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+
 import NavBar from '../components/NavBar';
 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -16,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body  className='font-poppins bg-my-very-dark-purple'>
+      <body  >
         <NavBar/>
         {children}</body>
     </html>
