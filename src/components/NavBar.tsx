@@ -16,12 +16,8 @@ const NavBar = () => {
         <div className="flex items-center text-lg font-bold ">
           <Image src='/logo.svg' width={40} height={40} alt="logo" />
         </div>
-
         <div onClick={() => setIsOpen(!isOpen)}
           className={`${isOpen ? "left-0" : "left-full"} fixed md:static top-0 uppercase bg-my-dark-purple   py-6 md:p-0 px-4   flex flex-col items-end md:flex-row md:items-center md:justify-end  w-full h-screen md:h-auto gap-4 !bg-opacity-100  transition-all`}>
-
-
-
           <button aria-label="Close Menu" onClick={() => setIsOpen(!isOpen)} className="w-8 h-8 transition-colors fill-white md:hidden "><CloseIcon /></button>
           <Link href="#home" className="w-full py-2 text-center transition-colors md:px-4 md:w-auto hover:text-my-purple">
             Home
